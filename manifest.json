@@ -1,0 +1,23 @@
+{
+    "name": "G1B",
+    "short_name": "G1B",
+    "description": "Aesthetic alternative to the default new tab.",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "omnibox": {
+      "keyword": "\\"
+    },
+    "chrome_url_overrides": {
+      "newtab": "index.html"
+    },
+    "icons": {
+      "16": "images/icon.png",
+      "128": "images/icon.png"
+    },
+    "web_accessible_resources": [
+        "js/script.js",
+        "css/styles.css",
+        "images/g1b.svg",
+        "images/icon.png"
+    ]
+ }

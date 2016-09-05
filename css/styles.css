@@ -1,0 +1,54 @@
+html {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+body {
+  cursor: default;
+  color: whitesmoke;
+  background: #111111;
+  font-family: 'Helvetica';
+  text-shadow: 0 0 1px white;
+  font-size: 18px;
+}
+
+img {
+  width: auto;
+  height: 100px;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: -1; 
+}
+
+span {
+  position: absolute;
+  right: 25px;
+  top: -50px;
+  animation-name: move;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  0% {
+    top: 100vh;
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    top: -25px;
+    opacity: 0;
+  }
+}
