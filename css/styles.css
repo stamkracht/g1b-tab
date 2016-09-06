@@ -13,6 +13,7 @@ body {
   font-family: 'Helvetica';
   text-shadow: 0 0 1px white;
   font-size: 18px;
+  -webkit-user-select: none;
 }
 
 img {
