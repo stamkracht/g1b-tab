@@ -1,6 +1,6 @@
 {
-    "name": "G1B",
-    "short_name": "G1B",
+    "name": "SKTab",
+    "short_name": "SKTab",
     "description": "Aesthetic alternative to the default new tab.",
     "version": "0.0.2",
     "manifest_version": 2,
@@ -17,7 +17,7 @@
     "web_accessible_resources": [
         "js/script.js",
         "css/styles.css",
-        "images/g1b.svg",
+        "images/sk.png",
         "images/icon.png"
     ]
  }
