@@ -4,10 +4,9 @@ chrome.omnibox.onInputChanged.addListener(function (q) {
   var updateElement = function() {
     var offset = Math.floor(Math.random() * 50);
     var duration = Math.floor(Math.random() * 10);
-    console.log(q.slice(-1), offset, duration);
     el.innerHTML = '<span style="right:'+offset+'vw; animation-duration:'+duration+'s">'+q.slice(-1)+'</span>';
     setTimeout(function () {
-      update();
+      updateElement();
     }, duration * 1000);
   };
   updateElement();
